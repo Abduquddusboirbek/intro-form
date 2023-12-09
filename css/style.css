@@ -111,7 +111,7 @@ img {
   --text-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+
   width: 100%;
   max-width: 570px;
   border-radius: 20px;
