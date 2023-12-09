@@ -44,13 +44,16 @@
   font-display: swap;
 }
 
+
+
+
 /* CUSTOM-PROPS */
 :root{
---body-bg:#F1F4FF;
---green: #4DC490;
---purple:#655AF2;
---red:#F03535;
---text-color:#000;
+  --body-bg:#F1F4FF;
+  --green: #4DC490;
+  --purple:#655AF2;
+  --red:#F03535;
+  --text-color:#000;
 }
 /* GLOBAL */
 html {
@@ -74,7 +77,7 @@ body {
   font-family: "inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color:var(--body-bg);
   color:var(--text-color);
 }
 
@@ -85,15 +88,17 @@ img {
 
 /* CONTAINER */
 .container {
-width: 100%;
+  width: 100%;
   max-width:1192px;
   padding-left: 20px;
   padding-right: 20px;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* MAIN-CONTENT */
 .main-content{
   flex-grow: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
